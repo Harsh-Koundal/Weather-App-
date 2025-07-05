@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+.input{
+    margin-top: 12px;
+}
+input{
+    width: 250px;
+}
+#city{
+    border: none;
+    outline: none;
+    height: 30px;
+    padding-left: 12px;
+    border-radius: 8px;
+
+}
+button{
+    margin-left: 6px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(39, 147, 225);
+    color: white;
+    padding:9px;
+    width: max-content;
+    height: max-content;
+}
+
+.display{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+    background-color: white;
+    margin-top: 22px;
+    border-radius: 12px 12px 0 0;
+    font-weight: 600;
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.left h2{
+    margin: 6px 0;
+}
+
+.main-data{
+  background-color: white;
+  margin-top: 2px;
+  border-radius: 0 0 12px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 12px;
+}
+
+.right img{
+    width: 80px;
+}
+.data-headings{
+    display: flex;
+    align-items: center;
+
+}
+.data-headings p:nth-child(2){
+    margin-left:70px;
+}
+
+.data-headings p{
+    margin: 12px 12px;
+}
+.data{
+    display: flex;
+    align-items: center;
+    
+}
+
+.data h4{
+    margin: 0px 15px 12px ;
+}
+.data h4:first-child{
+    margin: 0 0 12px 5px;
+}
